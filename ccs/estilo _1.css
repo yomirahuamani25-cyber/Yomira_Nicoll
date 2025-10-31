@@ -1,0 +1,82 @@
+/* ====== RESETEO BÁSICO ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ====== NAVBAR ====== */
+nav {
+  width: 100%;
+  background: #800000; /* borgoña tipo vino */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+nav img.logo {
+  max-height: 80px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #f1c40f;
+}
+
+/* ====== SECCIONES ====== */
+section img {
+  border-radius: 10px;
+}
+
+table {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+table td {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.bottonwed {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #800000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.bottonwed:hover {
+  background: #a93226;
+}
+
+article {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}

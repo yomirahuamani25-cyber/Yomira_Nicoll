@@ -1,0 +1,62 @@
+from{
+    padding: 50px; 55px;
+    box-shadow: 0 0 20px
+    border-radius: 20px;
+    text-align: center;
+    width: 340;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: rgb(254, 251, 251);
+    font-size: 35px;
+}
+label{
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 20px;
+    background-color: rgba(227, 219, 219, 0.838);
+    border: 3px;
+}
+input::placeholder, textarea::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.form.txt a{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    color: rgb(247, 244, 244);
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0 0 20px;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: chocolate;
+}
+@media(max-width:910){
+    body{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+}
